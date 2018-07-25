@@ -1,0 +1,24 @@
+{
+	"name": "lerna-demo",
+	"description": "Using lerna",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "lerna bootstrap",
+		"clean": "lerna clean"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/savokiss/lerna-demo.git"
+	},
+	"devDependencies": {
+		"lerna": "^2.11.0",
+		"lerna-wizard": "^1.0.9"
+	},
+	"author": "savokiss",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/savokiss/lerna-demo/issues"
+	},
+	"homepage": "https://github.com/savokiss/lerna-demo#readme"
+}
